@@ -1,0 +1,21 @@
+# Python & Jupyter
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Vector store cache (reproducible via notebook / cold start script)
+data/vector_store/
+
+# Environments & IDEs
+.env
+.venv
+env/
+venv/
+ENV/
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
