@@ -3,13 +3,22 @@ __pycache__/
 *.py[cod]
 *$py.class
 .ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
 
-# Vector store cache (reproducible via notebook / cold start script)
+# Logs
+*.log
+
+# Vector store cache (reproducible via notebook — run notebooks/rag_pipeline.ipynb)
 data/vector_store/
+
+# Raw document corpus (large PDFs — see README for download instructions)
+data/raw/
 
 # Environments & IDEs
 .env
-.venv
+.venv/
 env/
 venv/
 ENV/
